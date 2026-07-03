@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+env/
+*.egg-info/
+# 开物 wheel / 许可（不入库）
+*.whl
+kaiwu_license*
