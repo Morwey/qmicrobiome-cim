@@ -5,6 +5,12 @@ __pycache__/
 .venv/
 env/
 *.egg-info/
-# 开物 wheel / 许可（不入库）
+# 开物 wheel / 许可 / 凭据（严禁入库）
 *.whl
 kaiwu_license*
+.kaiwu_env
+# QVAE / 训练中间产物
+*_ckpt/
+qvae_ckpt/
+pipe_ckpt/
+models_*/
