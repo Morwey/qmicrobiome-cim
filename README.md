@@ -10,18 +10,14 @@
 | `报告_量子解析大曲抑制乳酸菌.md` | **系统报告**：量子出发点、方法框架、与验收指标逐条映射、里程碑与风险 |
 | `qmicrobiome_tutorial.py` | **可运行 tutorial**：端到端 QVAE→玻尔兹曼机→贡献度 |
 | `qmicrobiome_tutorial.ipynb` | 同上的 **Jupyter/Colab 版**（已带执行输出，Colab「全部运行」即可） |
-| `一页版_量子方案.html` | **可分享一页版**（含互作网络图 + 指标映射 + 实测结果，深浅色自适应） |
-| `README.md` | 本文件 |
 
 ## 快速开始
 ```bash
-# 仅需 numpy，离线即可跑（reference 后端，无需开物许可）
 pip install numpy
-python qmicrobiome_tutorial.py
+pip install kaiwu-1.3.1-*.whl   # 开物公开版 1.3.1 wheel（platform.qboson.com 免费注册获取）
 ```
-切换到真·相干伊辛机（开物 Kaiwu）：
+切换到开物Kaiwu量子套件：
 ```bash
-pip install kaiwu-1.3.1-cp310-none-any.whl   # 开物公开版 1.3.1 wheel（platform.qboson.com 免费注册获取）
 # 代码内：BACKEND = "kaiwu"，并先 kw.license.init(user_id=..., sdk_code=...)
 ```
 转 Jupyter/Colab：`jupytext --to notebook qmicrobiome_tutorial.py` 或直接在 Colab 按 `# %%` 分块粘贴。
