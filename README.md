@@ -39,7 +39,7 @@ python qmicrobiome_tutorial.py
 ```
 真机：把 `kaiwu_sample` 里的 `kw.classical.SimulatedAnnealingOptimizer` 换成 `kw.cim.CIMOptimizer(...)` 即用相干伊辛机。
 
-## Tutorial 会证明什么（合成数据预埋真值，可复现；全程 Kaiwu 1.3.1）
+## Tutoria 在做什么
 1. **QVAE + 能量面筛选**：项目内 DVAE+RBM 学表示与群落系统势 CSP（随发酵阶段迁移）；按"丰度随能量面迁移 + 与 LAB 关联"从含 20 噪声的 27 维表干净选出 7 个结构特征（LAB/C/NC/M/BS/co1/T2），排除全部噪声。
 2. **玻尔兹曼机学互作网络** {J,h}：负相由 **Kaiwu SA 采样 + e^(−E) 重加权**估计（伊辛矩阵由 `kw.conversion` 生成）。
 3. **接触 vs 非接触**（榜题核心）：
