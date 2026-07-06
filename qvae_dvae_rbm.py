@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 # QVAE 阶段① 编码器：DVAE + RBM（离散变分自编码器 + 受限玻尔兹曼机）
-# 原始实现由项目内 QVAE 负责人提供；此处为去除硬编码凭据的版本，
-# 许可凭据一律经 kw.license.init 由环境注入，不写入源码。
+# 许可凭据一律经 kw.license.init 由环境注入。
 # 负相采样：optimizer_type="sa"(kw.classical.SimulatedAnnealingOptimizer) 或 "cim"(kw.cim.CIMOptimizer)。
 
 import anndata
