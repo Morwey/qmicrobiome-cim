@@ -128,7 +128,7 @@ print("筛出的关键菌群/代谢物:", keep, " (应含 LAB,C,NC,M,BS,co1,T2; 
 
 # %% [markdown]
 # ## Kaiwu 负相采样器：伊辛矩阵由 kw.conversion 生成，SA 采样 + e^(−E) 重加权
-# 真机改用 `kw.cim.CIMOptimizer(task_name=..., project_no=...)`。**无自写求解器。**
+# 真机改用 `kw.cim.CIMOptimizer(task_name=..., project_no=...)`。
 
 # %%
 def _fields_to_ising(h, J):
