@@ -33,7 +33,7 @@
 # 环境：Python 3.10 + kaiwu==1.3.1 + torch + anndata + numpy
 pip install kaiwu-1.3.1-cp310-none-any.whl torch anndata numpy   # 开物 wheel: platform.qboson.com 免费注册
 
-# 许可凭据只经环境变量注入（切勿写入源码/提交仓库）
+# 许可凭据只经环境变量注入
 export KAIWU_USER_ID=...   KAIWU_SDK_CODE=...
 python qmicrobiome_tutorial.py
 ```
